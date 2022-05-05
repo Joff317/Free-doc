@@ -14,7 +14,6 @@ Appointment.destroy_all
     Doctor.create!(
       first_name: Faker::Name.first_name,
       last_name: Faker::Name.last_name,
-      #speciality: ["Généraliste", "Psychologue", "Dentiste", "Chirurgien","ORL", "Naturopathe"].sample,
       zip_code: Faker::Address.zip_code
       )
 end
